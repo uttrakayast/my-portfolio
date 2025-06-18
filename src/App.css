@@ -1,3 +1,9 @@
+@media (max-width: 480px) {
+  .typing-text {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.75rem;
+  }
+
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -18,7 +24,7 @@ nav {
   top: 0;
   background: white;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  /* padding: 1rem 2rem; */
+  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -189,20 +195,20 @@ footer {
   margin-top: 10px;
 }
 
-.btn {
+/* .btn {
   display: inline-block;
   background: #007BFF;
   color: white;
   /* padding: 8px 16px; */
-  border-radius: 6px;
+  /* border-radius: 6px;
   text-decoration: none;
   margin-right: 50px;
   transition: background 0.3s;
-}
+/* } */
 
 .btn:hover {
   background: #0056b3;
-}
+} 
 
 .btn.secondary {
   background: #6c757d;
@@ -253,3 +259,4 @@ footer {
   
 }
  
+}

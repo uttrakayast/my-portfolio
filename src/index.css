@@ -1,0 +1,37 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.custom-image {
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  transition: transform 0.3s ease;
+  margin-left: 60%;
+  margin-bottom: -270px;
+  
+  
+}
+
+.custom-image:hover {
+  transform: scale(1.05);
+}
+.project-image {
+  width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  margin-right: 500px;
+  margin-top: -250%;
+}
+
+.project-image:hover {
+  transform: scale(1.05);
+}
+
+

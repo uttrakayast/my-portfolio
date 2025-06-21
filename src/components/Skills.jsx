@@ -3,7 +3,7 @@ import pythonLogo from "../assets/python.png";
 import sqlLogo from "../components/sql.png";
 const Skills = () => {
   return (
-    <section id="skills">
+    <section id="skills" className="skills-section">
       <h2>Skills</h2>
       
       <div className="skills-logos">
